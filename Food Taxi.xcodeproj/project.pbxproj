@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0489423829F9D81600F3B59C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489423729F9D81600F3B59C /* HomeViewController.swift */; };
 		04CEE95A29B6981900F379EE /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEE95929B6981900F379EE /* OnboardingViewController.swift */; };
 		04CEE95D29B69CF200F379EE /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEE95C29B69CF200F379EE /* UIView+Extension.swift */; };
 		04CEE95F29B69F2700F379EE /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEE95E29B69F2700F379EE /* OnboardingSlide.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0489423729F9D81600F3B59C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		04CEE95929B6981900F379EE /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		04CEE95C29B69CF200F379EE /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		04CEE95E29B69F2700F379EE /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0489423629F9D7AC00F3B59C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0489423729F9D81600F3B59C /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		04CEE95429B697A900F379EE /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 		04CEE95629B697C700F379EE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0489423629F9D7AC00F3B59C /* Home */,
 				04CEE95829B697EA00F379EE /* Onboarding */,
 			);
 			path = Views;
@@ -192,6 +203,7 @@
 				04F2145529B3C35F0044C92F /* SceneDelegate.swift in Sources */,
 				04CEE95D29B69CF200F379EE /* UIView+Extension.swift in Sources */,
 				04CEE95A29B6981900F379EE /* OnboardingViewController.swift in Sources */,
+				0489423829F9D81600F3B59C /* HomeViewController.swift in Sources */,
 				04CEE96129B6A38400F379EE /* OnboardingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

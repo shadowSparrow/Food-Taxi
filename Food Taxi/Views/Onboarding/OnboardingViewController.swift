@@ -11,7 +11,8 @@ class OnboardingViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var nextButton: UIButton!
     @IBOutlet weak var pageConrol: UIPageControl!
-    var slides: [OnboardingSlide] = [OnboardingSlide(title: "Order", description: "Make your order with App", image: UIImage(named: "order")!), OnboardingSlide(title: "Taxi", description: "Delivery at your door Steps", image: UIImage(named: "taxi")!), OnboardingSlide(title: "Meal", description: "Enjoy Your Meal", image: UIImage(named: "enjoy")!)]
+    var slides: [OnboardingSlide] = [OnboardingSlide(title: "Order", description: "Make your order with App", image: UIImage(named: "order")!), OnboardingSlide(title: "Taxi", description: "Delivery at your door Steps", image: UIImage(named: "taxi")!), OnboardingSlide(title: "Meal", description: "Enjoy Your Meal", image: UIImage(named: "enjoy")!)
+    ]
     
     var currentPage: Int = 0 {
         
@@ -30,6 +31,8 @@ class OnboardingViewController: UIViewController {
         super.viewDidLoad()
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
+        
+        pageConrol.numberOfPages = slides.count
     }
     @IBAction func nextButtonClicked(_ sender: Any) {
         if currentPage == slides.count - 1 {
