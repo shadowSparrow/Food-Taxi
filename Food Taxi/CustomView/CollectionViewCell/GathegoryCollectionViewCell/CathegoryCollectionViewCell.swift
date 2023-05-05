@@ -9,9 +9,11 @@ import UIKit
 
 class CathegoryCollectionViewCell: UICollectionViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    @IBOutlet weak var cathegoryDishImageView: UIImageView!
+    @IBOutlet weak var cathegoryDishLabel: UILabel!
+    
+    func setUp(cathegory: DishCathegory) {
+        
     }
-
+    
 }

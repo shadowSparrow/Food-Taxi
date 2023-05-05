@@ -55,6 +55,10 @@
                 <constraint firstItem="FUn-MW-Xhu" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="juM-L4-6lY"/>
             </constraints>
             <size key="customSize" width="152" height="56"/>
+            <connections>
+                <outlet property="cathegoryDishImageView" destination="9Lk-ir-Kla" id="nqJ-tD-0AY"/>
+                <outlet property="cathegoryDishLabel" destination="TVW-BN-I3s" id="3i4-wA-Q4N"/>
+            </connections>
             <point key="canvasLocation" x="36" y="111"/>
         </collectionViewCell>
     </objects>
